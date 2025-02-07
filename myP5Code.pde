@@ -9,6 +9,7 @@ setup = function() {
         drawFish(300, 100, color(700,280,180));
 };
 
+
 //🟢draw Function - will run on repeat
 draw = function(){
 };
@@ -16,19 +17,24 @@ draw = function(){
 
 //🟢mouseClicked Function - will run when mouse is clicked
 mouseClicked = function(){
+// var fishX = 248 
+// var fishY = 185;
+
+
 
 
 Help
+
 var count = 0;
-mouseClicked = function(){ if(count==0){
+mouseClicked = function(){ if(count ==0){
 }
 drawFish(200, 185);
 count=1;
-else if(count==1){
+else if(count ==1){ drawFish (70, 105); count=2;
 }
-drawFish(70, 105);
-count=2;
-else if(count ==2){ drawFish (300, 45); count=3;
+else if(count ==2){
+drawFish(300, 45);
+count=3;
 }
 else if(count ==3){
 }
@@ -39,11 +45,10 @@ drawFish(random(0,600), random(0,400));
 drawFish(random(0,600), random(0,400));
 drawFish(random(0,600), random(0,400));
 drawFish(random(0,600), random(0,400));
+}
 };
-}
-drawFish(random(0,600), random(0,400));
-}
-Help
+
+
 
 //🟡drawFish Function - will run when called
 var drawFish = function(fishX, fishY, fishColor){
@@ -51,7 +56,4 @@ var drawFish = function(fishX, fishY, fishColor){
   fill(fishColor);
   text("𓆝", fishX, fishY);
 };
-
-
-
 

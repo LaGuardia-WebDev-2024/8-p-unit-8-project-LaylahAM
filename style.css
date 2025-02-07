@@ -9,6 +9,16 @@ body {
   color: navy;
   margin: auto;
   font-family: water;
+  
+  h1 {
+color: rgb(88, 24, 69);
+  }
+h2 {
+  }
+color: rgb(88, 24, 69);
+body {
+background-color: rgb(238, 170, 170);
+
 }
 
 h1{
@@ -22,5 +32,4 @@ h1{
   border: 5px solid white;
 }
 
-
-
+  
